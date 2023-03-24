@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho-imagem {
+    width: 158px;
+    height: 55px;
+    left: 15px;
+    top: 5px;
+}
+
+.cabecalho-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1472px;
+    height: 20px;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    top: 20px;
+    left: 100px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 800px;
+    width: 1150px;
+}
+
+.gmap_canvas {
+    /*position: absolute;*/
+    /*overflow: hidden;*/
+    height: 630px;
+    width: 1510px;
+    
+    
+}
