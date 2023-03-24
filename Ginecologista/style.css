@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.icone-alerta{
+    position: absolute;
+    width: 45px;
+    height: 48px;
+    left: 87.5%;
+    top: 12px;
+}
+
+.icone-configurações{
+    position: absolute;
+    width: 28px;
+    height: 30px;
+    left: 92%;
+    top: 17px;
+}
+
+.icone-logado{
+    position: absolute;
+    width: 46px;
+    height: 39px;
+    left: 95%;
+    top: 13px;
+}
+
+.cabecalho-imagem {
+    width: 158px;
+    height: 55px;
+    left: 15px;
+    top: 5px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 41px;
+    top: 83px;  
+    background-color: #DFDFDF;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.cabecalho-menu-item{
+    color: #000000;
+    text-decoration: none;
+}
+
+.rodape {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 94.7%;
+    height: 5px;
+    background-color: #DC5C73;
+    padding: 40px;
+    top: 2000px;
+}
+
+/*.rodape-texto {
+    color: #FFFFFF;
+
+}
+
+.rodape-divisao-texto {
+    color: #FFFFFF;
+
+}*/
+
+.imgPrimeira{
+    position: absolute;
+    width: 563px;
+    height: 376px;
+    left: 29px;
+    top: 266px; 
+}
+
+.imgSegunda{
+    position: absolute;
+    width: 563px;
+    height: 375px;
+    left: 29px;
+    top: 660px;
+}
+
+.imgTerceira{
+    position: absolute;
+    width: 563px;
+    height: 374.86px;
+    left: 29px;
+    top: 1053px;
+}
+
+.imgQuarta{
+    position: absolute;
+    width: 563px;
+    height: 408px;
+    left: 29px;
+    top: 1446px;
+   
+}
+
+.Anti-Titulo{
+    position: absolute;
+    width: 301px;
+    height: 15.6px;
+    left: 26px;
+    top: 142.33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.Titulo{
+    position: absolute;
+    width: 287px;
+    height: 56.55px;
+    left: 26px;
+    top: 157.92px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+}
+
+.barra-barra{
+    width: 100%;
+    height: 140px;
+    top: 83px;  
+    background-color: #DC5C73;
+    color: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.Titulo-texto{
+    position: absolute;
+    width: 287px;
+    height: 58px;
+    left: 685px;
+    top: 267px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #DC5C73;
+}
+
+.Texto{
+    position: absolute;
+    width: 429px;
+    height: 1530px;
+    left: 685px;
+    top: 341px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.nome-doutor{
+    position: absolute;
+    width: 106px;
+    height: 16px;
+    left: 32px;
+    top: 1858px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
