@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Cadastro.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Cadastro.css" media="screen" />
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+
+        <img class="cabecalho-imagem-bara" src="/ubs-logo-branca.png" alt="Logo da Unidade Basica de Saude">
+        <img class="alerta-icone" src="Alerta.png" alt="Icone de Alerta">
+        <img class="config-icone" src="Config.png" alt="Icone de config">
+        <img class="conta-icone" src="Conta-Log.png" alt="Icone da Conta do cliente">
+
+    </header>
+
+    <main class="barra-tarja">
+        <div>
+            <a class="texto-barra-tarja">Dados Cadastrais</a>
+        </div>
+    </main>
+
+    <footer class="barra-tarja-2">
+        <div>
+            <div>
+                <a class="texto-barra-tarja-2">Dados de Autenticação</a>
+            </div>
+        </div>
+    </footer>
+    <header id="topo">
+
+        <h1 class="txt-topo">UBS consultas</h1>
+
+    </header>
+
+    <div id="subtopo">
+        <h2 class="txt-subtopo">Cadastro de Usuário</h2>
+    </div>
+    <div id="topo-dados">
+        <h4 class="txt-topo-dados">Dados Cadastrais</h4>
+    </div>
+
+    <form>
+        <div id="div-form-alto">
+            <div id="form-name">
+                <label>Isira o seu Nome:</label>
+                <input type="text" class="inpt-name" id="name" placeholder="Ex; Carlos" required>
+            </div>
+
+            <div id="div-cpf-rg">
+                <div id="cpf">
+                    <label>CPF:</label>
+                    <input type="text" class="inpt-cpf" id="cpf" placeholder="ex: 000.000.000-4" required>
+                </div>
+
+                <div id="rg">
+                    <label>RG:</label>
+                    <input type="text" class="inpt-rg" id="rg" placeholder="00.000.000-0" required>
+                </div>
+            </div>
+
+            <div id="tel-fix-cel">
+                <div id="tel-fix">
+                    <label>Telefone Fixo:</label>
+                    <input type="tel" class="inpt-tel-fix" id="tele-fixo" placeholder="(00)0000-0000" required>
+                </div>
+
+                <div id="tel-cel">
+                    <label>Telefone Celular:</label>
+                    <input type="tel" class="inpt-tel-cel" id="tele-celu" placeholder="(00)0000-0000" required>
+                </div>
+            </div>
+
+            <div id="div-ender">
+                <label>Insira seu Endereço</label>
+                <input type="text" class="inpt-ender" id="endereco" placeholder="Rua Carlos de Nóbrega" required>
+            </div>
+
+            <div id="div-comple-bair">
+                <div id="div-comple">
+                    <label>Complemento:</label>
+                    <input type="text" class="inpt-comple" id="complemento" placeholder="Ao lado da caixa de água">
+                </div>
+
+                <div id="div-bair">
+                    <label>Bairro:</label>
+                    <input type="text" class="inpt-bair" id="bairro" placeholder="Centro" required>
+                </div>
+            </div>
+
+            <div id="div-esta-cida-cep">
+                <div id="div-esta">
+                    <label>Estado:</label>
+                    <select class="sele-esta" id="select-esta" required>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+
+                <div id="div-cida">
+                    <label>Cidade:</label>
+                    <select class="sele-cida" id="select-cida" required>
+                        <option value="Rio Branco">Rio Branco</option>
+                        <option value="Maceió">Maceió</option>
+                        <option value="Macapá">Macapá</option>
+                        <option value="Manaus">Manaus</option>
+                        <option value="Salvador">Salvador</option>
+                        <option value="Fortaleza">Fortaleza</option>
+                        <option value="Brasília">Brasília</option>
+                        <option value="Vitória">Vitória</option>
+                        <option value="Goiânia">Goiânia</option>
+                        <option value="São Luís">São Luís</option>
+                        <option value="Cuibá">Cuibá</option>
+                        <option value="Campo Grande">Campo Grande</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="Belém">Belém</option>
+                        <option value="João Pessoa">João Pessoa</option>
+                        <option value="Curitiba">Curitiba</option>
+                        <option value="Recife">Recife</option>
+                        <option value="Teresina">Teresina</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Natal">Natal</option>
+                        <option value="Porto Alegre">Porto Alegre</option>
+                        <option value="Porto Velho">Porto Velho</option>
+                        <option value="Boa Vista">Boa Vista</option>
+                        <option value="Florianópolis">Florianópolis</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="Aracaju">Aracaju</option>
+                        <option value="Palmas">Palmas</option>
+                    </select>
+                </div>
+
+                <div id="div-cep">
+                    <label>CEP:</label>
+                    <input type="number" class="inpt-cep" id="cep" placeholder="11111-000">
+                </div>
+            </div>
+        </div>
+
+        <div id="div-dados-aute">
+            <h4>Dados de Autenticação</h4>
+        </div>
+
+        <div id="div-form-baixo">
+            <div id="div-ema-sen-con">
+                <label>E-mail:</label>
+                <input type="email" class="inpt-ema" id="email" placeholder="Seu@email.com" required>
+
+                <label>Senha:</label>
+                <input type="password" class="inpt-sen" id="senha" placeholder="suasenha" required>
+
+                <label>Confirmar sua Senha:</label>
+                <input type="password" class="inpt-con-sen" id="confirma-senha" placeholder="suasenha" required>
+            </div>
+
+            <div id="div-btn">
+                <button type="button" class="btn-sal">Salvar</button>
+
+                <button type="button" class="btn-can">Cancelar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
