@@ -1,0 +1,98 @@
+body {
+    background-color: #E0B0B8;
+}
+/*
+.txt-home {
+    margin-top: 100px;
+}*/
+
+#div-centro {
+    background-color: #FFFF;
+    text-align: center;
+    padding: 15px;
+    height: 450px;
+    width: 450px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#div-centro-campos {
+    display:grid;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+#div-email {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.txt-email {
+    margin-left: -250px;
+}
+
+.campo-email {
+    height: 25px;
+    width: 300px;    
+}
+
+#div-senha {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.txt-senha {
+    margin-left: -255px;
+}
+
+.campo-senha {
+    height: 25px;
+    width: 300px;
+}
+
+#div-recu-sen {
+    text-align: right;
+}
+
+#div-campo-btn { 
+    margin-top: 10px;
+}
+
+.campo-btn {
+    background-color: #fe3c5f;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+}
+
+#div-criar-conta {
+    text-align: left;
+}
+
+#campo-baixo {
+    margin-top: -20px;
+}
+
+#line {
+    background-color: black;
+}
+
+.line {
+    padding: 1px;
+}
+
+#txt-gov {
+    color: #00713B;
+}
+
+.btn-gov {
+    background-color: #00ff33;
+    padding: 5px;
+    cursor: pointer;
+    width: 40%;
+}
